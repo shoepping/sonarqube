@@ -4,4 +4,4 @@ IMAGE_TAG=`date -u +"%y.%m.%d"`
 SONARQUBE_VERSION=7.1
 
 docker tag ${IMAGE_NAME} ${DOCKER_REPO}:${IMAGE_TAG}
-docker push ${DOCKER_REPO}-${SONARQUBE_VERSION}:${IMAGE_TAG}
+docker push ${DOCKER_REPO}:${IMAGE_TAG}
