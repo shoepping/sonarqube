@@ -1,4 +1,4 @@
-FROM sonarqube:7.9
+FROM sonarqube:7.9-community
 
 ENV GROOVY_PLUGIN_VERSION 1.5
 
